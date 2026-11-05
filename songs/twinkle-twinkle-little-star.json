@@ -1,0 +1,19 @@
+{
+ "id": "twinkle-twinkle-little-star",
+ "title": "Twinkle Twinkle Little Star",
+ "artist": "Dân ca",
+ "key": "C",
+ "confidence": "cao",
+ "note": "Bài mẫu (bản quyền tự do).",
+ "source": "mẫu",
+ "created": 1,
+ "melody": [
+  ["C4","C4","G4","G4","A4","A4","G4"],
+  ["F4","F4","E4","E4","D4","D4","C4"],
+  ["G4","G4","F4","F4","E4","E4","D4"],
+  ["G4","G4","F4","F4","E4","E4","D4"],
+  ["C4","C4","G4","G4","A4","A4","G4"],
+  ["F4","F4","E4","E4","D4","D4","C4"]
+ ],
+ "chords": ["C","C","F","C","F","C","G","C","C","F","C","G","C","F","C","G","C","C","F","C","F","C","G","C"]
+}

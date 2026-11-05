@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instrument</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Instrument</h1>
+  <nav class="tabs">
+    <button data-inst="piano" class="tab active">🎹 Piano</button>
+    <button data-inst="guitar" class="tab">🎸 Guitar</button>
+  </nav>
+</header>
+
+<main>
+  <aside>
+    <h2>Danh sách nhạc</h2>
+    <ul id="songList"></ul>
+
+    <form id="addForm">
+      <h3>Thêm bài</h3>
+      <input id="fTitle" placeholder="Tên bài hát" required>
+      <input id="fArtist" placeholder="Tên nghệ sĩ">
+      <button type="submit" id="fBtn">Tìm &amp; phổ nhạc</button>
+      <p id="fStatus" class="status"></p>
+    </form>
+  </aside>
+
+  <section>
+    <div class="bar">
+      <div id="songTitle" class="songtitle">Chưa chọn bài — chơi tự do bằng bàn phím</div>
+      <div class="modes">
+        <button data-mode="solo" class="mode active">Giai điệu (từng nốt)</button>
+        <button data-mode="chord" class="mode">Hợp âm (đệm)</button>
+      </div>
+    </div>
+
+    <div id="stage" class="stage"></div>
+
+    <div class="howto" id="howto"></div>
+
+    <div id="seq" class="seq"></div>
+    <div id="pad" class="pad"></div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
